@@ -109,7 +109,15 @@ header .search-bar.shrink i {
 }
 
 
-/*----- Media query -----*/
+/*----- Hero -----*/
+#hero {
+    background-image: url("../imgs/home.jpg") !important;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+/*----- Media query per schermi piccoli e medi -----*/
 @media screen and (max-width:959px) {
     header #navbarNavLinks,
     header #navbarNavLinks+div > a:first-child {
@@ -136,5 +144,8 @@ header .search-bar.shrink i {
         padding: 8px;
     }
 
+    #hero{
+        height: 300px;
+    }
 
 }
